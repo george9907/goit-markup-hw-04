@@ -227,13 +227,15 @@ body {
   max-width: 270px;
 }
 
-.peculiarities-icon {
-  width: 270px;
-  height: 120px;
+.peculiarities-icon-box {
   background: #f5f4fa;
+  height: 120px;
+  display: flex;
+  width: 270px;
   border-radius: 4px;
-  padding: 25px 100px;
   margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 .peculiarities-item-header {
@@ -362,7 +364,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-  margin-bottom: 30px;
+  margin: 10px 0 16px;
 }
 
 .card {
@@ -370,15 +372,13 @@ body {
   transition: 0.3s;
   width: 270px;
   background-color: #ffffff;
-
-  /* height: 310px; */
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container-card {
+.team-container-card {
   padding: 30px;
 }
 
@@ -398,11 +398,14 @@ body {
 }
 
 .customers-logo {
-  display: inline-block;
+  display: flex;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding: 16px 32px;
+  width: 170px;
+  height: 92px;
   color: #afb1b8;
+  align-items: center;
+  justify-content: center;
 }
 .customers-header {
   font-style: normal;
@@ -445,7 +448,7 @@ body {
 }
 
 .footer-contacts {
-  max-width: 180px;
+  max-width: 231px;
   margin-right: 0;
 }
 
@@ -488,7 +491,7 @@ body {
 .footer-soc {
   display: inline-block;
   margin-left: 70px;
-  padding-top: 72px;
+  padding-top: 12px;
 }
 
 .footer-soc-list-link {
